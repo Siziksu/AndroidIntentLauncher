@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="15dp"
+              android:background="@color/dark">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:gravity="center"
+    android:text="@string/app_name"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@color/text_color_primary_inv"
+    android:padding="10dp"
+    android:background="#FF1B4174" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:text="@string/app_description"
+    android:textSize="14sp"
+    android:textColor="@color/text_color_primary_inv" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:gravity="end">
+
+    <Button
+      android:id="@+id/btnStart"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingStart="15dp"
+      android:paddingEnd="15dp"
+      android:minHeight="40dp"
+      android:background="@drawable/button"
+      android:textSize="13sp"
+      android:textColor="#ff232323"
+      android:textStyle="bold"
+      android:text="@string/action_launch" />
+
+  </LinearLayout>
+</LinearLayout>
