@@ -1,7 +1,13 @@
 # AndroidIntentLauncher
+
 Example of how to launch an Intent from another application using Permissions and sending data to it.
 
 This example needs to have installed my other example [AndroidIntents] (https://github.com/Siziksu/AndroidIntents).
+
+## Screenshots
+
+![Screenshot](art/device-2017-07-10-151624.png)
+![Screenshot](art/device-2017-07-10-151742.png)
 
 ## License
     Copyright 2015 Esteban Latre

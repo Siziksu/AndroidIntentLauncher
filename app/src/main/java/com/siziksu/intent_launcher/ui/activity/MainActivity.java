@@ -26,9 +26,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_launch:
                 Intent intent = new Intent();
                 intent.setAction("com.siziksu.intents.action.MANIFEST");
-                intent.putExtra(EXTRAS_NAME, "Esteban");
-                intent.putExtra(EXTRAS_AGE, "40");
-                intent.putExtra(EXTRAS_WEIGHT, "65");
+                intent.putExtra(EXTRAS_NAME, "John Doe");
+                intent.putExtra(EXTRAS_AGE, "18");
+                intent.putExtra(EXTRAS_WEIGHT, "75 Kg");
                 sendBroadcast(intent);
                 break;
         }
