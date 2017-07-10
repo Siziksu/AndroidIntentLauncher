@@ -1,24 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          android:installLocation="preferExternal"
           package="com.siziksu.intent_launcher">
 
-  <uses-permission android:name="com.siziksu.intents.permission.MANIFEST" />
-
-  <application
-    android:allowBackup="false"
-    android:label="@string/app_name"
-    android:icon="@drawable/ic_launcher"
-    android:theme="@style/AppTheme">
-    <activity
-      android:name=".ui.activity.MainActivity"
-      android:label="@string/app_name"
-      android:screenOrientation="portrait">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
-  </application>
-
+    <uses-permission android:name="com.siziksu.intents.permission.MANIFEST" />
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
